@@ -8,3 +8,10 @@ automatically stay up-to-date with your remote repository?
 
 Git does not live update, so always pulling before you begin work on something ensures that you will be able to
 keep the most live version.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks work by creating clones on git's website, taking and referencing an individuals repo in your own set.
+Clones create local versions of repos, using init then clone creates a completelty new repo with no past metadata. 
+Branch takes a clone / fork and takes the repo off in a seperate direction from the master. 
