@@ -9,3 +9,23 @@ How is the staging area different from the working directory and the repository?
 The staging area is different from the working directory and the repository in that it gives the user the ability to select what files
 they want to commit and how to chunk them logically. It also allows some buffer room for error in that you have a 2 step to push up to the 
 repository. 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Using the staging area as an organization block can make sure that each commit you make stays logical.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+If you are doing one off feature requests, experimenting heavily, attempting to overhaul code architecture, changing language 
+etc creating seperate branches for these would help retain the master code quality but also allow you to freely experiment.
+Master branch retains quality and never breaks while other branches are used for bug fixes / other features. 
+
+How do the diagrams help you visualize the branch structure?
+
+Using a diagram you are able to easily see where you are currently in your process of code creation and what branch your 
+commit will be a part of.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging the two branches together brought the feature that was being worked on in an indipendent branch to the master.
+Representing it in the diagram shows the merge of the two branches to re-create one true master branch. 
