@@ -1,0 +1,4 @@
+How might using version control make you more confident to make changes that could break something.
+
+Being able to revert back to a known working condition allows the user to be experimental with their code and introduce the risk and creativity
+of changing entire sections, knowing that if they do make a bug or a code breaking error that they can revert and compare to fix this. 

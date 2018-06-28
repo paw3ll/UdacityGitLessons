@@ -1,0 +1,10 @@
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git,
+vs having versions automatically saved, like Google Docs does?
+ 
+ 
+Pros of being able to manually chose when to commit:
+One is able to establish the timeline they want for their coding project. Increments can be as few or farbetween as the creator wants
+and able to create the pace that they want for commits. Also allows user to have more full control. 
+
+Cons of being able to manually chose when to commit:
+User is able to oversatturate the commits, or possibly not commit frequently enough and push a large commit that's overbearing.

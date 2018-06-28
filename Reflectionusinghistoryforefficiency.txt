@@ -1,0 +1,2 @@
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+A: Having access to the entire history of a program provides the programmer with the ability to delete and experiment with code as they see fit knowing that if they mess up and erase something or make an unwanted change that they can simply revert to an old, working version and start a new. This keeps the life of the code alive and able to be crafted easier. 

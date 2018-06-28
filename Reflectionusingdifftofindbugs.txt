@@ -1,0 +1,4 @@
+Q: How did viewing a diff between two version help you spot the bug.
+A: Using git bash and viewing the difference between new_game.js and old_game.js allowed me to see the +'s and -'s and know exactly where code has been changed and where to look for errors. 
+Rather than trying to remember myself exactly where has been changed and hunting down for it. Visualization of the changes assist greatly in knowing where to begin your search. 
+

@@ -1,0 +1,6 @@
+How can you use the commands git log and git diff to view the history of files?
+
+git log: used to show a ledger of all commits with corresponding comments. Also able to see user that commited, date of commit, etc. 
+Comes with a commit # that can be used for comparrison or reference.
+
+git diff: uses commit #'s to compare code within file and show +'s and -'s corresponding to added or subtracted code. 
