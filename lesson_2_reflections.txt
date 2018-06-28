@@ -29,3 +29,9 @@ What is the result of merging two branches together? Why do we represent it in t
 
 Merging the two branches together brought the feature that was being worked on in an indipendent branch to the master.
 Representing it in the diagram shows the merge of the two branches to re-create one true master branch. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Being able to merge automatically allows the user to have easy usibilty when bringing two branches together but having 
+the ability to do manual merges lets the user resolve conflits in a way the system simply couldn't without advanced
+machine and predctive learning. 
