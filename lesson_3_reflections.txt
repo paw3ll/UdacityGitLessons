@@ -1,2 +1,10 @@
-When would you want to createa remote repository rather than keeping all your work local?
+When would you want to create a remote repository rather than keeping all your work local?
 
+If you want to have access to your repository from anywhere with internet access you would want to have a remote
+repo. or if you chose to have multiple individuals working on the same project.
+
+Why might you want to always pull changes manually rather than having Git 
+automatically stay up-to-date with your remote repository?
+
+Git does not live update, so always pulling before you begin work on something ensures that you will be able to
+keep the most live version.
