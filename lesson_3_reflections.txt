@@ -15,3 +15,14 @@ Describe the differences between forks, clones, and branches. When would you use
 Forks work by creating clones on git's website, taking and referencing an individuals repo in your own set.
 Clones create local versions of repos, using init then clone creates a completelty new repo with no past metadata. 
 Branch takes a clone / fork and takes the repo off in a seperate direction from the master. 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Having a copy of the last known state remotely stored allows for you to have the assurance of knowing that if there is 
+a fast foward merge or something breaks you have a remote version of the code that is unaffected.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Collaboration without git hub would mean users are storing local copies of the project and editing as they work,
+and when wanting to merge everyone would have to come together and copy and paste code into one final master. Then trouble shoot
+all bugs that may have happened. As well as the issue of making sure ever piece of code that has been changed
+gets added as one can change several things as they work.
