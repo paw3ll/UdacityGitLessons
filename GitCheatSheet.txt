@@ -1,0 +1,57 @@
+
+Git Notes
+-----------------------
+
+
+-----------------------
+create local branch
+-----------------------
+
+git checkout -b [name_of_branch]
+
+-----------------------
+merge local branch
+-----------------------
+
+git checkout master
+git pull origin master
+git merge [branch_name]
+git push origin master
+
+-----------------------
+delete local branch
+-----------------------
+
+git branch -d [name_of_branch]
+
+-----------------------
+delete remote branch
+-----------------------
+
+git push origin --delete [name_of_branch]
+
+-----------------------
+delete remote file
+-----------------------
+
+git rm --cached [file_name]
+git push origin [branch_name]
+
+-----------------------
+reset local repo to [branch]
+-----------------------
+
+git fetch origin
+git reset --hard origin/master
+
+(if you want to save work)
+
+git commit -a -m "Saving my work, just in case"
+git branch my-saved-work
+
+-----------------------
+get rid of untracked files
+-----------------------
+
+git clean -f
+
