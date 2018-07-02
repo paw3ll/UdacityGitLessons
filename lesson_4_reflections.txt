@@ -1,0 +1,4 @@
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Having a copy of the last known state remotely stored allows for you to have the assurance of knowing that if there is 
+a fast foward merge or something breaks you have a remote version of the code that is unaffected.
